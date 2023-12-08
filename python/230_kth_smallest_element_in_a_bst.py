@@ -8,7 +8,7 @@ import sys
 
 from sklearn import tree
 sys.path.append(r'd:\code\leetcode')
-from lc_utils import BinaryTree
+from python.lc_utils import BinaryTree
 from collections import deque
 class Solution:
     def kthSmallest(self, root, k: int) -> int:

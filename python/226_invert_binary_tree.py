@@ -1,4 +1,4 @@
-from lc_utils import TreeNode
+from python.lc_utils import TreeNode
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if not root:

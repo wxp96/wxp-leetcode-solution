@@ -6,7 +6,7 @@
 #         self.right = right
 from threading import local
 from matplotlib.pyplot import get
-from lc_utils import TreeNode
+from python.lc_utils import TreeNode
 from typing import Optional
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:

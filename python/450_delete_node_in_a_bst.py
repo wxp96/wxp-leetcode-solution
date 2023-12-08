@@ -1,7 +1,7 @@
 # Definition for a binary tree node.
 import sys
 sys.path.append(r'd:\code\leetcode')
-from lc_utils import TreeNode,BinaryTree
+from python.lc_utils import TreeNode,BinaryTree
 
 class Solution:
     def deleteNode(self, root, key: int):

@@ -1,5 +1,5 @@
 from typing import Optional
-from lc_utils import TreeNode
+from python.lc_utils import TreeNode
 
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:

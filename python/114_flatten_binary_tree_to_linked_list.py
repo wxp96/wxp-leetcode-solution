@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 from matplotlib.cbook import flatten
-from lc_utils import TreeNode
+from python.lc_utils import TreeNode
 class Solution:
     def flatten(self, root: TreeNode) -> None:
         """

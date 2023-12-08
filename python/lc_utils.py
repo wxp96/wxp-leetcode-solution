@@ -148,6 +148,18 @@ class BinaryTree:
                 d2.popleft()
         return root
 
+    def deserialize_levelorder_lc(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        data=data[1:-1]
+        data=data.replace('null','#')
+        data=data.replace(',',' ')
+        root=self.deserialize_levelorder(data)
+        return root
+
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
             return []

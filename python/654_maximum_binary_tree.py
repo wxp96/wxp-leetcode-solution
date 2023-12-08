@@ -1,6 +1,6 @@
 import sys
 sys.path.append(r"D:\code\leetcode")
-from lc_utils import TreeNode
+from python.lc_utils import TreeNode
 from typing import List
 from collections import deque
 class Solution:

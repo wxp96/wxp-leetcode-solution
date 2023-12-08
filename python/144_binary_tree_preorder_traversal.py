@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 from typing import Optional,List
-from lc_utils import TreeNode
+from python.lc_utils import TreeNode
 class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if not root:

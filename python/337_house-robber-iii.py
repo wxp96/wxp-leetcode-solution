@@ -1,4 +1,4 @@
-from lc_utils import TreeNode,BinaryTree
+from python.lc_utils import TreeNode,BinaryTree
 class Solution:
     def rob(self, root: TreeNode) -> int:
 

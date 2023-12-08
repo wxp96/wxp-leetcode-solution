@@ -1,4 +1,4 @@
-from lc_utils import BinaryTree
+from python.lc_utils import BinaryTree
 class Solution:
     def countNodes(self, root) -> int:
         height=0

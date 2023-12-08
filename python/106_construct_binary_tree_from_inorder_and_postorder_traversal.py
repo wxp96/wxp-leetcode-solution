@@ -1,4 +1,4 @@
-from lc_utils import TreeNode
+from python.lc_utils import TreeNode
 from typing import List
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:

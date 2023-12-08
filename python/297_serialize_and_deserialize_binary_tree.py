@@ -1,6 +1,6 @@
 import sys
 sys.path.append(r"d:\code\leetcode")
-from lc_utils import TreeNode,BinaryTree
+from python.lc_utils import TreeNode,BinaryTree
 from collections import deque
 
 # class Codec:

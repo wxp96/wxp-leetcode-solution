@@ -1,7 +1,7 @@
 from typing import Optional,List
 import sys
 sys.path.append(r'd:\code\leetcode')
-from lc_utils import TreeNode,BinaryTree
+from python.lc_utils import TreeNode,BinaryTree
 from collections import defaultdict,Counter
 # class Solution:
 #     def findDuplicateSubtrees(self, root: Optional[TreeNode]) -> List[Optional[TreeNode]]:

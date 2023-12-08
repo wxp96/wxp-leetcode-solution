@@ -1,6 +1,6 @@
 import sys
 sys.path.append(r"D:\code\leetcode")
-from lc_utils import TreeNode
+from python.lc_utils import TreeNode
 from typing import List
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
